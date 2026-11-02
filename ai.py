@@ -19,6 +19,8 @@ except ImportError:  # app still runs in manual mode
     types = None
 
 DEFAULT_MODEL = "gemini-flash-latest"
+FALLBACK_MODEL = "gemini-flash-lite-latest"
+REQUEST_TIMEOUT_MS = 25_000
 MAX_IMAGE_SIDE = 768
 
 
@@ -69,7 +71,14 @@ def is_available() -> bool:
 
 @st.cache_resource(show_spinner=False)
 def _client(key: str):
-    return genai.Client(api_key=key)
+    # Fail fast instead of hanging: _generate handles fallback to the lighter model.
+    return genai.Client(
+        api_key=key,
+        http_options=types.HttpOptions(
+            timeout=REQUEST_TIMEOUT_MS,
+            retry_options=types.HttpRetryOptions(attempts=1),
+        ),
+    )
 
 
 def _model() -> str:
@@ -89,23 +98,32 @@ def prepare_image(raw: bytes) -> bytes:
 def _generate(contents, schema):
     if not is_available():
         raise AIError("AI is not configured (no Gemini API key).")
-    try:
-        response = _client(api_key()).models.generate_content(
-            model=_model(),
-            contents=contents,
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                response_schema=schema,
-                temperature=0.4,
-            ),
-        )
-    except Exception as exc:
-        code = getattr(exc, "code", None)
-        if code == 429:
-            raise AIError("The free AI quota is busy right now. Please pick your material manually.") from exc
-        if code in (401, 403):
-            raise AIError("The Gemini API key was rejected. Check GEMINI_API_KEY.") from exc
-        raise AIError(f"AI service error: {exc}") from exc
+    config = types.GenerateContentConfig(
+        response_mime_type="application/json",
+        response_schema=schema,
+        temperature=0.4,
+    )
+    # Gemini returns 503 when a model is overloaded; try the lighter model before giving up.
+    models = list(dict.fromkeys([_model(), FALLBACK_MODEL]))
+    for i, model in enumerate(models):
+        try:
+            response = _client(api_key()).models.generate_content(
+                model=model, contents=contents, config=config
+            )
+            break
+        except Exception as exc:
+            code = getattr(exc, "code", None)
+            if code is None and "timeout" in type(exc).__name__.lower():
+                code = 504
+            if code in (500, 503, 504) and i < len(models) - 1:
+                continue
+            if code in (500, 503, 504):
+                raise AIError("Gemini is overloaded right now. Please try again or pick your material manually.") from exc
+            if code == 429:
+                raise AIError("The free AI quota is busy right now. Please pick your material manually.") from exc
+            if code in (401, 403):
+                raise AIError("The Gemini API key was rejected. Check GEMINI_API_KEY.") from exc
+            raise AIError(f"AI service error: {exc}") from exc
 
     parsed = response.parsed
     if parsed is None:
