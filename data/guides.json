@@ -1,0 +1,505 @@
+{
+  "materials": {
+    "plastic_bottle": {
+      "name": "Plastic Bottle",
+      "material_type": "PET Plastic (#1)",
+      "category": "plastic",
+      "emoji": "🧴",
+      "item_weight_g": 25,
+      "fact": "A PET bottle can take hundreds of years to break down in a landfill. Reusing one at home keeps it out of mixed waste completely.",
+      "prep": "Remove the label, rinse well and let it dry fully before cutting.",
+      "projects": [
+        {
+          "id": "pb_pencil_holder",
+          "title": "Desk Pencil Holder",
+          "tagline": "A bright, sturdy stand for pens and pencils.",
+          "use": "School supply",
+          "difficulty": "Easy",
+          "time_minutes": 15,
+          "grade": "8+",
+          "grams_diverted": 25,
+          "tools": ["1 plastic bottle (500 ml – 1 L)", "Scissors or craft knife", "Marker", "Masking tape or washi tape", "Acrylic paint or coloured paper", "Glue"],
+          "safety": "Adult supervision required when cutting plastic. Cut edges can be sharp — cover them with tape.",
+          "steps": [
+            "Draw a straight line around the bottle about 10 cm from the bottom using a marker.",
+            "Ask an adult to make a small starting cut, then cut carefully along the line with scissors.",
+            "Wrap masking or washi tape over the cut rim so there are no sharp edges.",
+            "Paint the outside or wrap it in coloured paper. Let the paint dry for 10 minutes.",
+            "Add your name or a design with a marker, then fill it with pens and pencils."
+          ]
+        },
+        {
+          "id": "pb_self_watering",
+          "title": "Self-Watering Plant Sprout",
+          "tagline": "A drip-irrigation pot that waters a seedling for days.",
+          "use": "Home & garden",
+          "difficulty": "Easy",
+          "time_minutes": 20,
+          "grade": "8+",
+          "grams_diverted": 30,
+          "tools": ["1 plastic bottle (1 L) with cap", "Scissors", "Nail or compass point", "Cotton string or a strip of old cloth (20 cm)", "Soil and seeds or a small plant"],
+          "safety": "Adult supervision required when cutting plastic and piercing the cap.",
+          "steps": [
+            "Cut the bottle in half around the middle.",
+            "With adult help, make a small hole in the centre of the cap using a heated nail or compass point.",
+            "Push the cotton string through the hole so half hangs out on each side, then screw the cap back on.",
+            "Turn the top half upside down and place it into the bottom half like a funnel.",
+            "Fill the top half with soil around the string and plant your seeds.",
+            "Pour water into the bottom half. The string will pull water up to the soil as it dries."
+          ]
+        },
+        {
+          "id": "pb_wall_planter",
+          "title": "Hanging Wall Planter",
+          "tagline": "Turn bottles into a vertical garden for a balcony or wall.",
+          "use": "Home decor",
+          "difficulty": "Medium",
+          "time_minutes": 40,
+          "grade": "9+",
+          "grams_diverted": 50,
+          "tools": ["2 plastic bottles (1 L)", "Craft knife or scissors", "Strong string or thin rope (2 m)", "Nail or skewer", "Soil and small plants", "Acrylic paint (optional)"],
+          "safety": "Adult supervision required when using a craft knife and making holes. Hang planters only where they cannot fall on anyone.",
+          "steps": [
+            "Lay each bottle on its side and draw a rectangle (about 12 × 6 cm) on the top-facing side.",
+            "With adult help, cut out the rectangle to make an opening for soil.",
+            "Make 3–4 small drainage holes on the bottom-facing side using a skewer.",
+            "Pierce a hole near the cap end and the base end of each bottle, on both sides.",
+            "Thread string through the holes so the bottle hangs level. Tie knots under each bottle to hold it.",
+            "Hang the second bottle 20 cm below the first on the same strings.",
+            "Fill with soil, add plants and water gently. Paint the bottles first if you like."
+          ]
+        }
+      ]
+    },
+    "cardboard_box": {
+      "name": "Cardboard Box",
+      "material_type": "Corrugated Cardboard",
+      "category": "paper",
+      "emoji": "📦",
+      "item_weight_g": 200,
+      "fact": "Online delivery boxes are one of the fastest-growing household waste items. Corrugated cardboard is strong enough for many years of use as furniture-grade organisers.",
+      "prep": "Remove plastic tape, stickers and any packing material. Keep it dry.",
+      "projects": [
+        {
+          "id": "cb_desk_organizer",
+          "title": "Desk Organizer with Compartments",
+          "tagline": "Slots for pens, notebooks, phone and sticky notes.",
+          "use": "School supply",
+          "difficulty": "Medium",
+          "time_minutes": 45,
+          "grade": "8+",
+          "grams_diverted": 250,
+          "tools": ["1 medium cardboard box", "Ruler and pencil", "Scissors or craft knife", "Glue (PVA or glue gun with adult)", "Coloured paper or paint", "2–3 toilet-paper rolls (optional)"],
+          "safety": "Adult supervision required when using a craft knife or glue gun.",
+          "steps": [
+            "Cut the box down to about 10 cm tall to make a tray.",
+            "Cut extra cardboard strips the same height to use as dividers.",
+            "Plan your sections: a wide slot for notebooks, a small one for sticky notes, a narrow one for a phone.",
+            "Glue the dividers in place and hold each for 30 seconds until it sticks.",
+            "Glue paper rolls into one corner as pen holders.",
+            "Cover the outside with coloured paper or paint, and label each section."
+          ]
+        },
+        {
+          "id": "cb_file_holder",
+          "title": "Magazine & File Holder",
+          "tagline": "Keep notebooks and worksheets standing neatly on a shelf.",
+          "use": "School supply",
+          "difficulty": "Easy",
+          "time_minutes": 25,
+          "grade": "8+",
+          "grams_diverted": 200,
+          "tools": ["1 cereal box or small delivery box", "Ruler and pencil", "Scissors", "Glue", "Wrapping paper, newspaper or paint"],
+          "safety": "Take care when cutting thick cardboard — cut away from your body. Ask an adult for help if needed.",
+          "steps": [
+            "Stand the box upright. On one side, draw a diagonal line from the top back corner to about one-third up the front.",
+            "Copy the same line on the opposite side, then join them across the front.",
+            "Cut along the lines to make the classic slanted file-holder shape.",
+            "Tape over any loose flaps on the inside.",
+            "Cover with paper or paint, and add a label like 'Science' or 'Homework'."
+          ]
+        },
+        {
+          "id": "cb_notice_board",
+          "title": "Pin-Up Notice Board",
+          "tagline": "A soft board for timetables, notes and art.",
+          "use": "Home decor",
+          "difficulty": "Easy",
+          "time_minutes": 30,
+          "grade": "8+",
+          "grams_diverted": 300,
+          "tools": ["2–3 flat pieces of cardboard (same size)", "Glue", "An old piece of cloth or t-shirt", "Tape or stapler", "String for hanging", "Push pins"],
+          "safety": "Use push pins carefully. Adult supervision required if using a stapler or craft knife.",
+          "steps": [
+            "Cut 2–3 cardboard pieces to the same size (for example 30 × 40 cm).",
+            "Glue them on top of each other to make a thick board. Place a heavy book on top for 10 minutes.",
+            "Lay the cloth face down, put the board on it, and fold the edges over the back.",
+            "Tape or staple the cloth tightly on the back side.",
+            "Poke two holes at the top, thread string through and tie it for hanging.",
+            "Pin up your timetable, notes or drawings."
+          ]
+        }
+      ]
+    },
+    "tin_can": {
+      "name": "Tin Can",
+      "material_type": "Steel / Aluminium Can",
+      "category": "metal",
+      "emoji": "🥫",
+      "item_weight_g": 50,
+      "fact": "Metal cans can be recycled again and again without losing quality — but a can thrown into mixed waste is rarely recovered. Reusing it at home gives it a second life immediately.",
+      "prep": "Wash thoroughly, remove the label and check the rim. Flatten or tape any sharp edges first.",
+      "projects": [
+        {
+          "id": "tc_pen_stand",
+          "title": "Pen & Brush Stand",
+          "tagline": "A heavy, tip-proof holder for art supplies.",
+          "use": "School supply",
+          "difficulty": "Easy",
+          "time_minutes": 20,
+          "grade": "8+",
+          "grams_diverted": 50,
+          "tools": ["1 clean tin can", "Masking tape or electrical tape", "Acrylic paint or yarn", "Glue", "Paintbrush"],
+          "safety": "Adult supervision required. Can rims can be very sharp — always check and tape the rim before handling.",
+          "steps": [
+            "Ask an adult to check the inner rim and press down any sharp metal with pliers.",
+            "Wrap tape all around the top rim so it is completely covered.",
+            "Paint the outside, or wrap yarn tightly around it with dabs of glue.",
+            "Let it dry for 15–20 minutes.",
+            "Fill with pens, pencils or paintbrushes."
+          ]
+        },
+        {
+          "id": "tc_herb_planter",
+          "title": "Kitchen Herb Planter",
+          "tagline": "Grow mint, coriander or tulsi on a sunny windowsill.",
+          "use": "Home & garden",
+          "difficulty": "Easy",
+          "time_minutes": 25,
+          "grade": "8+",
+          "grams_diverted": 50,
+          "tools": ["1 clean tin can", "Hammer and nail", "Small stones or gravel", "Soil", "Herb seeds or a cutting", "Paint (optional)"],
+          "safety": "Adult supervision required when using a hammer and nail, and for checking the can's sharp rim.",
+          "steps": [
+            "Tape the top rim to cover any sharp edges.",
+            "Turn the can upside down. With adult help, hammer a nail through the bottom to make 3–4 drainage holes.",
+            "Paint the outside if you want and let it dry.",
+            "Add a 2 cm layer of small stones at the bottom.",
+            "Fill with soil, plant your seeds or cutting, and water lightly.",
+            "Place it on a saucer in a sunny spot."
+          ]
+        },
+        {
+          "id": "tc_lantern",
+          "title": "Punched-Pattern Lantern",
+          "tagline": "Light shines through tiny holes to make star patterns.",
+          "use": "Home decor",
+          "difficulty": "Medium",
+          "time_minutes": 45,
+          "grade": "9+",
+          "grams_diverted": 50,
+          "tools": ["1 clean tin can", "Water and a freezer", "Hammer and nails of different sizes", "Paper pattern and tape", "Towel", "LED tea light or small battery light"],
+          "safety": "Adult supervision required for hammering. Use an LED light, not a real candle, to avoid fire risk.",
+          "steps": [
+            "Fill the can with water and freeze it overnight — the ice stops the can from denting.",
+            "Draw a simple pattern (stars, dots, a leaf) on paper and tape it around the can.",
+            "Lay the can on a folded towel. With adult help, hammer nails along the pattern to punch holes.",
+            "Remove the paper and let the ice melt. Dry the can completely.",
+            "Tape the top rim, then place an LED tea light inside and switch off the room lights."
+          ]
+        }
+      ]
+    },
+    "old_cloth": {
+      "name": "Old Cloth / T-Shirt",
+      "material_type": "Cotton / Mixed Textile",
+      "category": "textile",
+      "emoji": "👕",
+      "item_weight_g": 150,
+      "fact": "Most discarded clothing ends up in landfill or is burned. Even worn-out fabric is useful for bags, pouches and rugs.",
+      "prep": "Wash and dry the cloth. T-shirt fabric is best because the edges do not fray.",
+      "projects": [
+        {
+          "id": "oc_tote_bag",
+          "title": "No-Sew T-Shirt Tote Bag",
+          "tagline": "A washable shopping bag — no needle needed.",
+          "use": "Everyday use",
+          "difficulty": "Easy",
+          "time_minutes": 20,
+          "grade": "8+",
+          "grams_diverted": 150,
+          "tools": ["1 old t-shirt", "Fabric scissors", "Ruler", "Chalk or marker"],
+          "safety": "Take care with sharp scissors. Younger students should cut with adult help.",
+          "steps": [
+            "Lay the t-shirt flat and cut off both sleeves just inside the seam.",
+            "Cut a wide U-shape around the neckline to make the bag opening.",
+            "Turn the t-shirt inside out. Cut 8 cm long strips along the bottom edge, about 2 cm apart, through both layers.",
+            "Tie each front strip to the back strip directly behind it with a double knot.",
+            "Tie each knotted pair to its neighbour to close any gaps.",
+            "Turn the bag right side out — the knots are now hidden inside."
+          ]
+        },
+        {
+          "id": "oc_pencil_pouch",
+          "title": "Zipless Pencil Pouch",
+          "tagline": "A roll-up pouch with pockets for each pencil.",
+          "use": "School supply",
+          "difficulty": "Medium",
+          "time_minutes": 40,
+          "grade": "8+",
+          "grams_diverted": 80,
+          "tools": ["Old cloth (about 30 × 40 cm)", "Needle and thread or fabric glue", "Scissors", "Ruler and chalk", "Ribbon or cloth strip (40 cm)"],
+          "safety": "Handle needles carefully and keep them in a pin cushion. Adult supervision recommended.",
+          "steps": [
+            "Cut a rectangle of 30 × 40 cm.",
+            "Fold the bottom edge up by 12 cm to make a pocket strip.",
+            "Stitch or glue the left and right sides of the fold.",
+            "With chalk, mark vertical lines every 3 cm across the pocket strip.",
+            "Stitch or glue along each line to make separate pencil slots.",
+            "Fold the top flap down over the pencils, roll it up and tie it with the ribbon."
+          ]
+        },
+        {
+          "id": "oc_braided_coaster",
+          "title": "Braided Rug Coasters",
+          "tagline": "Colourful coasters or a small mat made from braided strips.",
+          "use": "Home decor",
+          "difficulty": "Medium",
+          "time_minutes": 60,
+          "grade": "8+",
+          "grams_diverted": 300,
+          "tools": ["2 old t-shirts (different colours)", "Fabric scissors", "Needle and strong thread or fabric glue", "Safety pin"],
+          "safety": "Take care with scissors and needles. Adult supervision recommended.",
+          "steps": [
+            "Cut the t-shirts into long strips about 3 cm wide. Pull each strip gently so it curls.",
+            "Knot three strips together at one end and pin the knot to something steady.",
+            "Braid the strips tightly. Knot new strips on as they run out.",
+            "When the braid is about 1.5 m long, start coiling it flat into a spiral.",
+            "Stitch or glue the coil together as you go so it holds its shape.",
+            "Tuck and stitch the end under. Make a set of 4 coasters or keep going for a mat."
+          ]
+        }
+      ]
+    },
+    "glass_jar": {
+      "name": "Glass Jar",
+      "material_type": "Glass",
+      "category": "glass",
+      "emoji": "🫙",
+      "item_weight_g": 200,
+      "fact": "Glass can be recycled endlessly, but heavy jars in mixed waste are rarely recovered. A clean jar is one of the easiest items to reuse.",
+      "prep": "Soak in warm water to remove the label, wash and dry. Do not use chipped or cracked jars.",
+      "projects": [
+        {
+          "id": "gj_supply_jar",
+          "title": "Labelled Supply Jars",
+          "tagline": "Clear storage for clips, erasers and art supplies.",
+          "use": "School supply",
+          "difficulty": "Easy",
+          "time_minutes": 15,
+          "grade": "8+",
+          "grams_diverted": 200,
+          "tools": ["1–3 clean glass jars with lids", "Paint or coloured tape for lids", "Paper labels or masking tape", "Marker"],
+          "safety": "Handle glass carefully on a flat surface. Do not use chipped or cracked jars.",
+          "steps": [
+            "Make sure the jars are clean and fully dry.",
+            "Paint the lids or wrap the lid edges in coloured tape.",
+            "Write labels such as 'Paper Clips', 'Erasers' or 'Crayons' on tape.",
+            "Stick the labels on the front of each jar.",
+            "Fill them and line them up on your desk or shelf."
+          ]
+        },
+        {
+          "id": "gj_terrarium",
+          "title": "Mini Jar Terrarium",
+          "tagline": "A tiny green world that needs very little water.",
+          "use": "Home decor",
+          "difficulty": "Medium",
+          "time_minutes": 30,
+          "grade": "8+",
+          "grams_diverted": 250,
+          "tools": ["1 wide glass jar", "Small pebbles", "A handful of charcoal (optional)", "Potting soil", "Small plants or moss", "Spoon and chopstick"],
+          "safety": "Handle glass carefully. Wash hands after handling soil.",
+          "steps": [
+            "Add a 2 cm layer of pebbles at the bottom for drainage.",
+            "Sprinkle a thin layer of charcoal to keep it fresh (optional).",
+            "Add 4–5 cm of potting soil.",
+            "Use a spoon to dig small holes and plant the moss or small plants. Press soil around them with a chopstick.",
+            "Add decorative stones on top, then spray lightly with water.",
+            "Keep it in bright, indirect light and water only when the soil looks dry."
+          ]
+        },
+        {
+          "id": "gj_light_lamp",
+          "title": "Fairy-Light Jar Lamp",
+          "tagline": "A glowing night lamp for a desk or bedside.",
+          "use": "Home decor",
+          "difficulty": "Easy",
+          "time_minutes": 20,
+          "grade": "8+",
+          "grams_diverted": 200,
+          "tools": ["1 clean glass jar", "Battery-powered LED fairy lights", "Glass paint or tissue paper and glue (optional)", "Ribbon or twine"],
+          "safety": "Use battery LED lights only — never mains-powered lights or candles inside a closed jar.",
+          "steps": [
+            "Decorate the outside with glass paint or glue on torn tissue paper for a stained-glass effect.",
+            "Let it dry completely.",
+            "Coil the LED fairy lights loosely inside the jar.",
+            "Tuck the battery pack inside or tape it under the lid.",
+            "Tie ribbon or twine around the neck of the jar and switch it on."
+          ]
+        }
+      ]
+    },
+    "newspaper": {
+      "name": "Newspaper / Paper",
+      "material_type": "Paper",
+      "category": "paper",
+      "emoji": "📰",
+      "item_weight_g": 40,
+      "fact": "Old newspapers are easy to recycle, but when they are mixed with wet waste they become useless. Clean paper makes great biodegradable crafts.",
+      "prep": "Use clean, dry sheets. Avoid paper that is greasy or wet.",
+      "projects": [
+        {
+          "id": "np_seed_pots",
+          "title": "Newspaper Seedling Pots",
+          "tagline": "Biodegradable pots you can plant straight into the soil.",
+          "use": "Home & garden",
+          "difficulty": "Easy",
+          "time_minutes": 20,
+          "grade": "8+",
+          "grams_diverted": 60,
+          "tools": ["4–6 newspaper sheets", "A glass or small bottle (as a mould)", "Soil and seeds", "Tray"],
+          "safety": "Wash hands after handling newspaper ink and soil.",
+          "steps": [
+            "Cut a newspaper sheet into a strip about 10 cm wide.",
+            "Roll the strip around the glass, leaving 3 cm hanging off the bottom.",
+            "Fold and press the hanging paper onto the base of the glass to make a bottom.",
+            "Slide the glass out. Repeat to make 6 pots and stand them on a tray.",
+            "Fill with soil, plant seeds and water gently.",
+            "When seedlings are ready, plant the whole pot in the ground — the paper breaks down naturally."
+          ]
+        },
+        {
+          "id": "np_book_cover",
+          "title": "Reusable Book Covers",
+          "tagline": "Protect textbooks without buying plastic covers.",
+          "use": "School supply",
+          "difficulty": "Easy",
+          "time_minutes": 15,
+          "grade": "8+",
+          "grams_diverted": 40,
+          "tools": ["2 large newspaper sheets", "Scissors", "Tape", "Markers or stickers"],
+          "safety": "Low risk activity. Take care with scissors.",
+          "steps": [
+            "Lay two sheets on top of each other for extra strength.",
+            "Place the open book in the centre, leaving 5 cm of paper on every side.",
+            "Fold the top and bottom edges in to match the book's height.",
+            "Fold the side flaps over the front and back covers and slide the covers into the flaps.",
+            "Tape the flaps (not the book) in place, then decorate and write the subject name."
+          ]
+        },
+        {
+          "id": "np_basket",
+          "title": "Rolled-Paper Basket",
+          "tagline": "A woven storage basket made from paper tubes.",
+          "use": "Home decor",
+          "difficulty": "Hard",
+          "time_minutes": 90,
+          "grade": "9+",
+          "grams_diverted": 200,
+          "tools": ["15–20 newspaper sheets", "A thin stick or skewer", "Glue", "Cardboard circle for the base", "Clothes pegs", "Paint or varnish (optional)"],
+          "safety": "Use skewers carefully. Adult supervision recommended if using varnish — work in a ventilated space.",
+          "steps": [
+            "Cut sheets into strips about 8 cm wide. Roll each strip tightly around the skewer at an angle, glue the end and slide the skewer out.",
+            "Make about 40 tubes.",
+            "Glue 12–16 tubes evenly around the cardboard base like the spokes of a wheel, then bend them upward.",
+            "Weave a new tube in and out of the upright spokes. Hold it with clothes pegs as you go.",
+            "Join new tubes by pushing one end into another with a dab of glue.",
+            "When the basket is tall enough, fold the spoke ends inside and glue them down.",
+            "Paint or varnish it for strength once dry."
+          ]
+        }
+      ]
+    },
+    "tetra_pak": {
+      "name": "Milk / Juice Carton",
+      "material_type": "Tetra Pak (paper + plastic + aluminium layers)",
+      "category": "mixed",
+      "emoji": "🧃",
+      "item_weight_g": 28,
+      "fact": "Cartons are made of several bonded layers, so few local recyclers can process them. Their waterproof inside makes them perfect for reuse.",
+      "prep": "Open the top fully, wash out all milk or juice, and let it dry upside down.",
+      "projects": [
+        {
+          "id": "tp_wallet",
+          "title": "Carton Card Wallet",
+          "tagline": "A waterproof, foldable wallet for bus passes and ID cards.",
+          "use": "Everyday use",
+          "difficulty": "Medium",
+          "time_minutes": 30,
+          "grade": "8+",
+          "grams_diverted": 28,
+          "tools": ["1 clean 1 L carton", "Scissors", "Ruler", "Tape (or a stapler)", "Velcro dot or rubber band (optional)"],
+          "safety": "Take care with scissors. Ask an adult before using a stapler.",
+          "steps": [
+            "Cut off the top and bottom of the carton so you have a tube.",
+            "Flatten the tube and fold one end up by about 6 cm to form a pocket.",
+            "Fold the remaining top down over the pocket to make a closing flap.",
+            "Tape or staple the sides of the pocket.",
+            "Fold the wallet in half the other way, and add a Velcro dot or rubber band to close it."
+          ]
+        },
+        {
+          "id": "tp_bird_feeder",
+          "title": "Carton Bird Feeder",
+          "tagline": "Help local birds with a hanging seed station.",
+          "use": "Home & garden",
+          "difficulty": "Easy",
+          "time_minutes": 25,
+          "grade": "8+",
+          "grams_diverted": 28,
+          "tools": ["1 clean carton with cap", "Scissors or craft knife", "Pencil or twig (perch)", "String", "Bird seed or grains"],
+          "safety": "Adult supervision required when using a craft knife. Hang the feeder away from cats.",
+          "steps": [
+            "Draw a window on two opposite sides, about 5 cm above the bottom.",
+            "With adult help, cut out the windows. Leave the bottom edge as a seed tray.",
+            "Poke a small hole under each window and push a pencil or twig through as a perch.",
+            "Pierce a hole through the top and thread string through to hang it.",
+            "Fill the bottom with seed and hang it from a tree or balcony."
+          ]
+        },
+        {
+          "id": "tp_planter",
+          "title": "Seed-Starter Planter",
+          "tagline": "A waterproof planter for herbs or seedlings.",
+          "use": "Home & garden",
+          "difficulty": "Easy",
+          "time_minutes": 15,
+          "grade": "8+",
+          "grams_diverted": 28,
+          "tools": ["1 clean carton", "Scissors", "Skewer", "Soil and seeds", "Paint or paper (optional)"],
+          "safety": "Take care with scissors and the skewer.",
+          "steps": [
+            "Lay the carton on its side and cut away the top-facing panel to make a long trough.",
+            "Poke 3–4 small drainage holes in the bottom with a skewer.",
+            "Decorate the outside with paint or paper if you like.",
+            "Fill with soil and plant seeds in a row.",
+            "Place on a tray near a window and water lightly every day."
+          ]
+        }
+      ]
+    }
+  },
+  "not_upcyclable": {
+    "name": "Not Safe to Upcycle",
+    "emoji": "⚠️",
+    "intro": "Some items are hazardous or contaminated. They should never be cut, opened or used in crafts — but they can still be disposed of responsibly.",
+    "categories": [
+      {"title": "Batteries", "advice": "Never break, burn or throw them in household bins. Tape the terminals and drop them at a battery collection box (often found at electronics shops and some supermarkets)."},
+      {"title": "E-waste (phones, chargers, cables, bulbs)", "advice": "Give them to an authorised e-waste collector or a manufacturer take-back point. CFL bulbs contain mercury — do not break them."},
+      {"title": "Food-soiled or greasy packaging", "advice": "Greasy pizza boxes and food-stained wrappers cannot be recycled. Tear off clean parts for crafts; compost plain paper parts or put the rest in dry waste."},
+      {"title": "Medicine, chemical or aerosol containers", "advice": "Do not cut, puncture or reuse them. Return expired medicines to a pharmacy take-back point and keep chemical containers closed and away from children."},
+      {"title": "Broken glass or sharp metal", "advice": "Wrap in thick newspaper, label it 'SHARP – GLASS', and hand it to waste collectors separately."}
+    ]
+  }
+}
